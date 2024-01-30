@@ -1,0 +1,449 @@
+/* General styling for the entire home section */
+
+.home-fist {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+  justify-content: space-between;
+}
+
+/* Style the left content */
+.home-first-left {
+  max-width: 400px; /* Limit the width of the left content */
+}
+
+.home-first-left h1 {
+  color: #7c6a46;
+  font-size: 30px;
+  font-weight: 400;
+  font-style: oblique;
+  margin-bottom: 0.5rem;
+}
+
+.home-first-left h2 {
+  color: #000;
+  font-size: 40px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  max-height: 3.6em;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+}
+
+.home-first-left p {
+  color: #000;
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+
+/* Style the right image */
+.home-first-right img {
+  height: 570px;
+  width: 780px;
+}
+
+/* Style the buttons and icons */
+.home-button-logo {
+  margin: 2rem;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.home-button-logo button {
+  background-color: #7c6a46;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  height: fit-content;
+  padding: 14px;
+}
+
+.home-icon-take {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.home-icon-take h3 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+/* Styling for the second section */
+.home-all-second {
+  border: 0.5px solid #ddd;
+  width: 93%;
+  margin-left: 2rem;
+  /* margin-right: 2rem; */
+  padding: 1rem;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.home-second {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 4rem;
+  margin-left: 4rem;
+}
+
+.home-location {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.home-location h4 {
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.home-item4 {
+  background-color: #7c6a46;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: fit-content;
+  padding: 15px;
+  margin-top: 1.3rem;
+}
+
+.home-our-text {
+  text-align: center;
+}
+
+.home-our-text h1 {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.home-our-text p {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+/* Styling for the facilities cards */
+.home-facilities-card {
+  padding: 2rem;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Styling for each card */
+.home-facilities-card > * {
+  flex: 1 1 calc(20% - 20px); /* Set width for 4 cards in a row with some gap */
+  max-width: calc(21% - 20px); /* Set max-width for responsiveness */
+  margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.home-facilities-card1 h6 {
+  font-size: 18px;
+  font-weight: 400;
+}
+.home-luxurious {
+  background: linear-gradient(rgba(124, 106, 70, 0.7), rgba(124, 106, 70, 0.7)),
+    url("../../images/luxurious.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 650px;
+  min-width: 100%;
+  color: #7c6a46;
+}
+
+.home-luxurious-text h1 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+}
+.home-luxurious-text p {
+  color: #fff;
+  font-size: 17px;
+  font-weight: normal;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.home-hr1 {
+  width: 7%;
+  border: 1px solid #fff;
+}
+.home-luxurious-room {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 4rem;
+  margin: 5rem;
+}
+.home-luxurious-room1 {
+  background: #fff;
+  padding: 8px;
+  width: 25%;
+  border-radius: 5px;
+  position: relative;
+}
+
+.home-luxurious-room1-image {
+  background-image: url("../../images/luxurious1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 275px;
+  width: auto;
+  border-radius: 10px;
+  position: relative;
+}
+
+.home-luxurious-room1 button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #7c6a46;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  height: fit-content;
+  padding: 12px;
+  margin: 7px;
+}
+
+.home-luxurious-room1 h6 {
+  color: #000;
+  font-size: 15px;
+  font-weight: normal;
+  padding: 0;
+  margin: 6px;
+}
+.home-luxurious-room2-image {
+  background-image: url("../../images/luxurious2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 275px;
+  width: auto;
+  border-radius: 10px;
+  position: relative;
+}
+.home-luxurious-room3-image {
+  background-image: url("../../images/luxurious3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 275px;
+  width: auto;
+  border-radius: 10px;
+  position: relative;
+}
+.home-Testimonies h2 {
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.home-review-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.home-review-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.home-review-info h5 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.home-review-info h1 {
+  font-size: 24px;
+  margin: 0;
+  color: #ffac33; /* Adjust the color as needed */
+}
+
+.home-review-content p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.home-review-author {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+
+.home-review-author h2 {
+  font-size: 15px;
+  margin: 5px 0;
+  color: #7c6a46; /* Adjust the color as needed */
+}
+.home-review-card-all {
+  display: flex;
+  flex-direction: row;
+}
+.home-card-data {
+  min-width: 260px;
+  text-align: center;
+  padding: 2rem;
+  display: block;
+}
+.home-card-data:hover {
+  background-color: #faf9f6;
+  min-width: 270px;
+}
+
+/* Media query for tablet screens */
+@media screen and (max-width: 768px) {
+  .home-fist {
+    padding: 7px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .home-second {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+  }
+  .home-all-second {
+    border: 0.5px solid #ddd;
+    width: 85%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 1rem;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .home-facilities-card {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+  }
+  .home-our-text h1 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .home-our-text p {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .home-review-card-all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .home-date {
+    width: fit-content;
+  }
+
+  .home-first-right img {
+    height: 300px;
+    width: 385px;
+  }
+  .home-card-data {
+    min-width: 320px;
+    /* padding: 2rem; */
+    align-self: center;
+  }
+  .home-card-data:hover {
+    background-color: #faf9f6;
+    min-width: 335px;
+  }
+  .home-luxurious {
+    /* background: linear-gradient(rgba(124, 106, 70, 0.7), rgba(124, 106, 70, 0.7)),
+      url("../../images/luxurious.png"); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1250px;
+    min-width: 100%;
+    color: #7c6a46;
+  }
+  .home-luxurious-room {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem;
+  }
+
+  .home-luxurious-room1,
+  .home-luxurious-room2,
+  .home-luxurious-room3 {
+    width: 100%; /* Make each room take full width on smaller screens */
+  }
+  .home-first-left {
+    margin-top: -1.4rem;
+  }
+  .home-first-left h1 {
+    color: #7c6a46;
+    font-size: 22px;
+    font-weight: 400;
+    font-style: oblique;
+    margin-bottom: 0.5rem;
+  }
+
+  .home-first-left h2 {
+    color: #000;
+    margin-top: 2px;
+    font-size: 24px;
+    font-weight: 500;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+  }
+
+  .home-first-left p {
+    color: #000;
+    font-size: 15px;
+    margin-top: 0px;
+  }
+  .home-button-logo {
+    margin: 1rem;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .home-button-logo button {
+    background-color: #7c6a46;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    height: fit-content;
+    padding: 8px;
+  }
+  .home-icon-take h3 {
+    font-size: 15px;
+  }
+}

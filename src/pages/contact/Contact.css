@@ -1,0 +1,115 @@
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  padding: 4rem;
+}
+
+.contact-name-email {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  width: 85%;
+}
+
+.contact-name {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.contact-name input {
+  font-size: 15px;
+  padding: 7px;
+  outline: none;
+}
+
+.contact-message {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  height: 220px;
+  margin-top: 15px;
+}
+
+.contact-message textarea {
+  height: 200px;
+  outline: none;
+}
+
+.contact-sand-data {
+  background-color: #7c6a46;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-style: none;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  margin-top: 1rem;
+  width: 20%;
+}
+.responsive-map {
+  overflow: hidden;
+  height: 0;
+  padding-bottom: 30%;
+  position: relative;
+}
+.responsive-map iframe {
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+@media only screen and (max-width: 768px) {
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    padding: 2rem;
+  }
+  .contact-name-email {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 95%;
+  }
+  .contact-message {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    min-height: 150px;
+    margin-top: 15px;
+  }
+  .contact-message label {
+    font-size: 14px;
+  }
+  .contact-name input {
+    font-size: 12px;
+    padding: 4px;
+    outline: none;
+  }
+  .contact-name label {
+    font-size: 14px;
+  }
+  .contact-sand-data {
+    background-color: #7c6a46;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-style: none;
+    padding: 7px;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-top: 1rem;
+    width: 45%;
+  }
+  .responsive-map {
+    padding-bottom: 60%;
+    border-style: none;
+  }
+}

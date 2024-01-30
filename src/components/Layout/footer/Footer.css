@@ -1,0 +1,140 @@
+/* Footer.css */
+.footer-footer {
+  background-color: #7d6a46;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.main-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.main-footer div {
+  flex: 1;
+  max-width: 200px;
+  text-align: left;
+  color: #fff;
+  margin: 0.5rem;
+}
+
+.main-footer h4 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.main-footer h6 {
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  margin-top: 6px;
+}
+
+.main-footer p {
+  font-size: 15px;
+  line-height: 1.5;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.header-line {
+  color: #fff;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.footer-view {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  justify-content: center;
+}
+.footer-text-icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+.footer-mt-icon {
+  margin-top: 6px;
+}
+.facebook-icon :hover {
+  color: #1774eb;
+  cursor: pointer;
+}
+.twitter-icon:hover {
+  color: #4ea6e9;
+  cursor: pointer;
+}
+.instagram-icon:hover {
+  color: red;
+  cursor: pointer;
+}
+.linkedin-icon:hover {
+  color: #1774eb;
+  cursor: pointer;
+}
+.footer-input-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.footer-input-btn input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+.footer-input-btn button {
+  padding: 8px;
+  background-color: #7d6a46;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.footer-input-btn button:hover {
+  background-color: #a88c58;
+}
+
+/* Media Query for Smaller Screens (Mobile) */
+@media (max-width: 768px) {
+  .main-footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-footer div {
+    max-width: none;
+  }
+  .main-footer h4 {
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0;
+    gap: 2px;
+  }
+  .main-footer div p {
+    font-size: 12px;
+    padding: 0px;
+    margin: 0px;
+  }
+  .main-footer div h6 {
+    font-size: 12px;
+  }
+  .footer-view {
+    font-size: 15px;
+  }
+}
