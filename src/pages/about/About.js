@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../../components/Layout/Layout";
-import AbMan from "../../images/abman.png";
+import RohitJi from "../../images/rohitji.jpeg";
 import "./About.css";
 import About1 from "../../images/about1.png";
 import About2 from "../../images/about2.png";
@@ -25,9 +25,9 @@ const About = () => {
       <div className="about-data">
         <div>
           <div className="about-left">
-            <img src={AbMan} alt="" />
+            <img src={RohitJi} alt="" />
           </div>
-          <h1 className="about-manager">Chidinma James (Manager)</h1>
+          <h1 className="about-manager">Mr.Rohit Kumar (Manager)</h1>
         </div>
         <div className="about-right">
           <p>
