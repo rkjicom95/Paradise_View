@@ -36,7 +36,7 @@ const Footer = () => {
           <div>
             <h4>Social media</h4>
             <Link
-              to="https://www.facebook.com/home.php"
+              to="https://www.google.com/search?q=facebook+login&rlz=1C5CHFA_enIN1056IN1056&oq=facebook+lo&gs_lcrp=EgZjaHJvbWUqDAgAECMYJxiABBiKBTIMCAAQIxgnGIAEGIoFMgYIARBFGEAyBggCEEUYOTINCAMQABiDARixAxiABDINCAQQABiDARixAxiABDINCAUQABiDARixAxiABDINCAYQABiDARixAxiABDIPCAcQABgUGIcCGLEDGIAE0gEJODQ4NGowajE1qAIAsAIA&sourceid=chrome&ie=UTF-8"
               className="footer-text-icon"
             >
               <h6 style={{ cursor: "pointer" }}>Facebook</h6>
@@ -47,7 +47,7 @@ const Footer = () => {
               <FaTwitter size={20} className="twitter-icon footer-mt-icon" />
             </Link>
             <Link
-              to="https://www.instagram.com/iamcoder95/"
+              to="https://www.google.com/search?q=instagram&rlz=1C5CHFA_enIN1056IN1056&oq=insta&gs_lcrp=EgZjaHJvbWUqDggBEEUYJxg7GIAEGIoFMgYIABBFGDkyDggBEEUYJxg7GIAEGIoFMgYIAhBFGDsyBggDEEUYOzIMCAQQABhDGIAEGIoFMgwIBRAAGEMYgAQYigUyDAgGEAAYQxiABBiKBTIMCAcQABhDGIAEGIoFMg0ICBAAGIMBGLEDGIAEMg0ICRAAGIMBGLEDGIAE0gEJMjkwMWowajE1qAIAsAIA&sourceid=chrome&ie=UTF-8"
               className="footer-text-icon"
             >
               <h6>Instagram</h6>
@@ -57,7 +57,7 @@ const Footer = () => {
               />
             </Link>
             <Link
-              to="https://www.linkedin.com/in/rohit-kumar-prajapati-ba8868239/"
+              to="https://www.google.com/search?q=linkedin&rlz=1C5CHFA_enIN1056IN1056&oq=linkedin+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIOCAEQRRgnGDsYgAQYigUyEggCEAAYFBiDARiHAhixAxiABDITCAMQLhiDARjHARixAxjRAxiABDIGCAQQRRg8MgYIBRBFGDwyBggGEEUYPDIGCAcQRRg80gEINTkyMmowajmoAgCwAgA&sourceid=chrome&ie=UTF-8"
               className="footer-text-icon"
             >
               <h6>Linkedin</h6>
